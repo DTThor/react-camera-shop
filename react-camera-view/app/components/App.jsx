@@ -7,11 +7,13 @@ import { BrowserRouter } from 'react-router';
 const App = React.createClass({
   render() {
     return (
-      <div>
-        <Header />
-        <Main />
-        <Footer />
-      </div>
+      <BrowserRouter>
+        <div>
+          <Header />
+          <Main />
+          <Footer />
+        </div>
+      </BrowserRouter>
     )
   }
 });
